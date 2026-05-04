@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Traveling by Train — An Encyclopedia of <em>Anna Karenina</em></title>
+  <link rel="stylesheet" href="../styles.css" />
+  <style>
+    .back-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.4rem;
+      font-variant: small-caps;
+      letter-spacing: 0.15em;
+      font-size: 0.9rem;
+      color: var(--accent);
+      text-decoration: none;
+      border-bottom: none;
+      margin-bottom: 2rem;
+      padding: 0.4rem 0;
+    }
+    .back-link:hover { color: var(--link-hover); border-bottom: none; }
+    .back-link::before { content: "←"; font-variant: normal; font-size: 1rem; }
+    .entry { border-bottom: none; }
+
+    .entry-illustration {
+      margin: 2rem 0;
+      border: 1px solid var(--rule);
+      padding: 1rem;
+      background: var(--paper-shade);
+      text-align: center;
+    }
+    .entry-illustration img {
+      max-width: 100%;
+      height: auto;
+      display: block;
+      margin: 0 auto 0.75rem;
+    }
+    .entry-illustration figcaption {
+      font-size: 0.85rem;
+      font-style: italic;
+      color: var(--ink-soft);
+    }
+    .works-cited {
+      margin-top: 2.5rem;
+      border-top: 1px solid var(--rule);
+      padding-top: 1.5rem;
+    }
+    .works-cited h4 {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 1.2rem;
+      font-variant: normal;
+      letter-spacing: 0;
+      color: var(--accent-dark);
+      margin-bottom: 0.75rem;
+    }
+    .works-cited ul {
+      list-style: none;
+      padding-left: 0;
+      margin: 0;
+    }
+    .works-cited li {
+      margin-bottom: 0.75rem;
+      font-size: 0.95rem;
+      color: var(--ink-soft);
+      line-height: 1.6;
+      padding-left: 2em;
+      text-indent: -2em;
+    }
+
+    .entry-byline {
+      font-variant: small-caps;
+      letter-spacing: 0.15em;
+      font-size: 0.8rem;
+      color: var(--ink-soft);
+      margin: 0.3rem 0 1rem;
+    }
+    .entry-byline a {
+      color: var(--accent);
+      border-bottom: 1px solid rgba(91,26,26,0.25);
+    }
+    .entry-byline a:hover {
+      color: var(--link-hover);
+    }
+
+    .entry-body > p:first-of-type::first-letter,
+    .entry-body > figure + p::first-letter {
+      font-family: 'Cormorant Garamond', serif;
+      float: left;
+      font-size: 3.4rem;
+      line-height: 1;
+      padding-right: 0.5rem;
+      padding-top: 0.35rem;
+      color: var(--accent);
+      font-weight: 600;
+    }
+    .placeholder-note {
+      color: var(--rule);
+      font-style: italic;
+      font-size: 0.9rem;
+    }
+
+    .related-articles {
+      display: inline-block;
+      margin: 0.5rem 0 1.75rem;
+      padding: 0.6rem 1rem 0.7rem;
+      background: var(--paper-shade);
+      border: 1px solid var(--rule);
+      font-size: 0.88rem;
+    }
+    .related-articles h4 {
+      font-family: 'EB Garamond', serif;
+      font-size: 0.78rem;
+      font-variant: small-caps;
+      letter-spacing: 0.2em;
+      color: var(--ink-soft);
+      margin: 0 0 0.4rem;
+    }
+    .related-articles ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.25rem 0.75rem;
+    }
+    .related-articles li {
+      margin: 0;
+    }
+    .related-articles a {
+      font-size: 0.9rem;
+      color: var(--link);
+      border-bottom: 1px solid rgba(91,26,26,0.25);
+      white-space: nowrap;
+    }
+    .related-articles a:hover {
+      color: var(--link-hover);
+      border-bottom-color: var(--link-hover);
+    }
+  </style>
+</head>
+<body>
+  <header class="masthead">
+    
+    <h1>An Encyclopedia of <em>Anna Karenina</em></h1>
+    <p class="tagline">Created by the Students of <em>Anna Karenina: A Close Reading</em> at Amherst College</p>
+  </header>
+
+  <nav class="site-nav" aria-label="Primary">
+    <ul>
+      <li><a href="../index.html">Home</a></li>
+      <li><a href="../encyclopedia.html" class="active">Encyclopedia</a></li>
+      <li><a href="../about.html">About Us</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <a class="back-link" href="../encyclopedia.html#motifs">Back to Motifs</a>
+
+    <article class="entry" id="traveling-train">
+      <header class="entry-head">
+        <h3>Traveling by Train</h3>
+      </header>
+
+      <section class="related-articles">
+        <h4>Related Articles</h4>
+        <ul>
+          <li><a href="railway-development.html">The Development of the Russian Railway System</a></li>
+          <li><a href="railways-russia.html">Railways and Trains in Russia and Abroad</a></li>
+        </ul>
+      </section>
+      <div class="entry-body">
+        <figure class="entry-illustration">
+        <img src="traveling-train1.png" alt="Illustration for this entry" />
+        <figcaption>Public Domain, Railway Station in St. Petersburg, 19th Century</figcaption>
+      </figure>
+        <p> In Leo Tolstoy’s <em>Anna Karenina</em>, traveling by train is a recurring motif, which can be defined as the act of departing, arriving, and being transported by railway. Rather than functioning as a static image, it is a dynamic process that shapes characters’ psychological journeys. Tolstoy uses train travel to remove characters from familiar environments and place them into transitional spaces. Travel by train establishes a symbolic tension between individual will and external inevitability, representing fate, liminality, modernity, and moral instability. </p>
+<p>In 19th-century Russia, the <a href="railway-development.html">invention of railroads</a> produced strong expectations for democracy, harmony, progress, and social unity. However, it also introduced a world governed by mechanical force rather than human intention. Many travelers were afraid of the train itself because they were confined in a piece of fast-moving machinery. This common anxiety of having no influence over the motion of the train turned the compartment into a locus of trauma. This was worsened by optical and acoustic isolation from the rest of the train and the outside world. Passengers were scared of catastrophic accidents, crime within isolated compartments, loss of sexual control, and medical vulnerability. Overall, while railroads inspired utopian expectations, the <a href="railways-russia.html">compartmentalized European railcar design</a> often produced division, discomfort, and anxiety instead (Schivelbusch 70–88). These fears are reflected in Tolstoy's portrayal of traveling by train. </p>
+<p>The motif initially emerges at the Moscow train station where <em>Anna Karenina</em> meets her brother, Stiva Oblonsky, traveling from St. Petersburg. This is the first time Anna and Count Alexei Vronsky meet. In this scene, a railway worker is killed by a train, highlighting the dangers of modernity and immediately linking trains to disruption and death. Anna herself views this event as a bad omen (Tolstoy 63-68). This moment foreshadows the motif’s potential for destruction and shows that trains are not neutral vehicles but objects of violent, uncontrollable motion.  </p>
+<p>Traveling by train ties into Anna’s psychological state throughout the novel. Each time she boards or rides a train, she experiences moments of emotional crisis or transition. After meeting Vronsky and returning to St. Petersburg, the train mirrors her inner turmoil, and her thoughts parallel its motion. The train’s rhythmic, but unending movement reflects her own inability to control her emotions or life choices. Her journey by train, accompanied by a cinematic description of a snowstorm, becomes a liminal space where her feelings for Vronsky intensify with the same velocity as the train itself. The act of being uncontrollably pushed forward or transported by train represents Anna being carried forward by her own passion. </p>
+<p>From a social and cultural perspective, the train represents the <a href="progress.html">modernization</a> of traditional Russian life. The railway reduces distance, connects people from diverse social circles, and undermines established hierarchies. Fellow travelers on the train are often removed from their previous ecosystems of home, estate, or city, and placed into a shared, anonymous space. This reflects a broader transformation in nineteenth-century society, where technological progress disrupts prior understandings of identity and belonging. For Anna, the train enables her movement between disparate social worlds as a wife, a lover, and a social outcast; however, it also intensifies her alienation. Each train journey distances her further from social acceptance. </p>
+<p>Train travel is represented across Tolstoy’s <em>Anna Karenina</em>, Dostoevsky’s <em>The Idiot</em>, and Nekrasov’s poem <em>The Railroad</em> through a shared concern with the railway as a charged modern space, but each text assigns it a different symbolic meaning. In all three, the railway is tied to the disruptions of modernity and industrial expansion, functioning as a space where human lives are brought into contact with larger social and historical forces (Mosova et al.). In Nekrasov’s <em>The Railroad</em>, this is expressed most explicitly through the depiction of the railway as a site of suffering and exploitation, where human progress is built on the unseen labor and sacrifice of workers, emphasizing the social cost of industrial “progress.” Tolstoy’s <em>Anna Karenina</em> develops this darker register further by presenting the train as an impersonal, almost fateful force that mirrors social fragmentation and contributes to individual catastrophe, culminating in its association with death and inevitability (Mosova et al.). In contrast, Dostoevsky’s <em>The Idiot</em> uses the train less as an instrument of destruction and more as a narrative and symbolic meeting point, bringing strangers into close, forced proximity that enables sudden intimacy and confessional dialogue. Taken together, Nekrasov emphasizes material violence, Tolstoy psychological and existential destructiveness, and Dostoevsky intensified human encounter within modern mobility (Mosova et al.). </p>
+<p>The train travel motif structurally punctuates the novel at key inflection points. Major narrative shifts coincide with departures or arrivals, reinforcing the sense that the storyline is driven by the same mechanical inevitability as the train itself. The culmination of this motif occurs in Anna’s final act, where repeated associations with the train reach a tragic conclusion in her <a href="suicide.html">suicide</a> (Tolstoy 767–771). Her death is not an isolated event but the final expression of a pattern established from the beginning. The train, once a means of travel, becomes a mechanism of irreversible destruction. </p>
+<p>In <em>Anna Karenina</em>, the motif of traveling by train is uniquely integrated into the fabric of the narrative. It is more than just a symbol of modern life; it is a recurring theme that simultaneously shapes both character and plot. Each instance of boarding, departing, or riding reinforces the novel’s expression of inevitability and fragmentation. Through this dynamic motif, Tolstoy transforms the railway into a powerful narrative force that carries his characters toward their ultimate destinies while revealing the psychological and social costs of modernity.</p>
+      </div>
+
+
+      <!-- ============================================================
+           ILLUSTRATION
+           Instructions for students:
+           1. Save your image file into the "entries" folder
+              (same folder as this .html file)
+           2. Replace  YOUR-IMAGE-FILENAME.jpg  below with the
+              actual filename of your image (e.g. dancing.jpg)
+           3. Replace the caption text with a real caption
+              describing the image and its source.
+           ============================================================ -->
+
+
+      <figure class="entry-illustration">
+        <img src="traveling-train2.png" alt="Illustration for this entry" />
+        <figcaption>N. A. Naidenov, Railway Station in Moscow, 1884</figcaption>
+      </figure>
+
+      <!-- ============================================================
+           WORKS CITED  (MLA 9th edition)
+           Instructions for students:
+           - List sources alphabetically by author's last name
+           - Replace each placeholder line with a real citation
+           - Add or remove <li> lines as needed
+           - Each citation uses a hanging indent (built into the CSS)
+
+           MLA format examples:
+           Book:
+             Last, First. Title of Book. Publisher, Year.
+           Journal article:
+             Last, First. "Article Title." Journal Name, vol. #, no. #, Year, pp. #–#.
+           Website:
+             Last, First. "Page Title." Website Name, Day Mon. Year, URL.
+           ============================================================ -->
+            <section class="works-cited">
+        <h4>Works Cited</h4>
+        <ul>
+          <li>Mosova, Diana V., et al. "Train as a Semantic Space in Russian Culture of the 19th-20th Centuries." <em>Rupkatha Journal on Interdisciplinary Studies in Humanities</em>, vol. 13, no. 1, 28 Mar. 2021, https://doi.org/10.21659/rupkatha.v13n1.14.</li>
+          <li>Schivelbusch, Wolfgang. "The Compartment." <em>The Railway Journey: The Industrialization of Time and Space in the Nineteenth Century</em>, 1st ed., University of California Press, 2014, pp. 70–88. JSTOR, http://www.jstor.org/stable/10.1525/j.ctt6wqbk7.11.</li>
+          <li>Tolstoy, Leo. <em>Anna Karenina</em>. Translated by Rosamund Bartlett, Oxford University Press, 2014.</li>
+        </ul>
+      </section>
+
+    </article>
+  </main>
+
+  <footer>
+    
+    <p>Spring 2026, <em>Anna Karenina: A Close Reading</em>, Amherst College.</p>
+  </footer>
+</body>
+</html>

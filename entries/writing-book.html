@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Writing (a book) — An Encyclopedia of <em>Anna Karenina</em></title>
+  <link rel="stylesheet" href="../styles.css" />
+  <style>
+    .back-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.4rem;
+      font-variant: small-caps;
+      letter-spacing: 0.15em;
+      font-size: 0.9rem;
+      color: var(--accent);
+      text-decoration: none;
+      border-bottom: none;
+      margin-bottom: 2rem;
+      padding: 0.4rem 0;
+    }
+    .back-link:hover { color: var(--link-hover); border-bottom: none; }
+    .back-link::before { content: "←"; font-variant: normal; font-size: 1rem; }
+    .entry { border-bottom: none; }
+
+    .entry-illustration {
+      margin: 2rem 0;
+      border: 1px solid var(--rule);
+      padding: 1rem;
+      background: var(--paper-shade);
+      text-align: center;
+    }
+    .entry-illustration img {
+      max-width: 100%;
+      height: auto;
+      display: block;
+      margin: 0 auto 0.75rem;
+    }
+    .entry-illustration figcaption {
+      font-size: 0.85rem;
+      font-style: italic;
+      color: var(--ink-soft);
+    }
+    .works-cited {
+      margin-top: 2.5rem;
+      border-top: 1px solid var(--rule);
+      padding-top: 1.5rem;
+    }
+    .works-cited h4 {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 1.2rem;
+      font-variant: normal;
+      letter-spacing: 0;
+      color: var(--accent-dark);
+      margin-bottom: 0.75rem;
+    }
+    .works-cited ul {
+      list-style: none;
+      padding-left: 0;
+      margin: 0;
+    }
+    .works-cited li {
+      margin-bottom: 0.75rem;
+      font-size: 0.95rem;
+      color: var(--ink-soft);
+      line-height: 1.6;
+      padding-left: 2em;
+      text-indent: -2em;
+    }
+
+    .entry-byline {
+      font-variant: small-caps;
+      letter-spacing: 0.15em;
+      font-size: 0.8rem;
+      color: var(--ink-soft);
+      margin: 0.3rem 0 1rem;
+    }
+    .entry-byline a {
+      color: var(--accent);
+      border-bottom: 1px solid rgba(91,26,26,0.25);
+    }
+    .entry-byline a:hover {
+      color: var(--link-hover);
+    }
+
+    .entry-body > p:first-of-type::first-letter,
+    .entry-body > figure + p::first-letter {
+      font-family: 'Cormorant Garamond', serif;
+      float: left;
+      font-size: 3.4rem;
+      line-height: 1;
+      padding-right: 0.5rem;
+      padding-top: 0.35rem;
+      color: var(--accent);
+      font-weight: 600;
+    }
+    .placeholder-note {
+      color: var(--rule);
+      font-style: italic;
+      font-size: 0.9rem;
+    }
+
+    .related-articles {
+      display: inline-block;
+      margin: 0.5rem 0 1.75rem;
+      padding: 0.6rem 1rem 0.7rem;
+      background: var(--paper-shade);
+      border: 1px solid var(--rule);
+      font-size: 0.88rem;
+    }
+    .related-articles h4 {
+      font-family: 'EB Garamond', serif;
+      font-size: 0.78rem;
+      font-variant: small-caps;
+      letter-spacing: 0.2em;
+      color: var(--ink-soft);
+      margin: 0 0 0.4rem;
+    }
+    .related-articles ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.25rem 0.75rem;
+    }
+    .related-articles li {
+      margin: 0;
+    }
+    .related-articles a {
+      font-size: 0.9rem;
+      color: var(--link);
+      border-bottom: 1px solid rgba(91,26,26,0.25);
+      white-space: nowrap;
+    }
+    .related-articles a:hover {
+      color: var(--link-hover);
+      border-bottom-color: var(--link-hover);
+    }
+  </style>
+</head>
+<body>
+  <header class="masthead">
+    
+    <h1>An Encyclopedia of <em>Anna Karenina</em></h1>
+    <p class="tagline">Created by the Students of <em>Anna Karenina: A Close Reading</em> at Amherst College</p>
+  </header>
+
+  <nav class="site-nav" aria-label="Primary">
+    <ul>
+      <li><a href="../index.html">Home</a></li>
+      <li><a href="../encyclopedia.html" class="active">Encyclopedia</a></li>
+      <li><a href="../about.html">About Us</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <a class="back-link" href="../encyclopedia.html#motifs">Back to Motifs</a>
+
+    <article class="entry" id="writing-book">
+      <header class="entry-head">
+        <h3>Writing (a book)</h3>
+      </header>
+
+      <section class="related-articles">
+        <h4>Related Articles</h4>
+        <ul>
+          <li><a href="writing-correspondence.html">Writing (a note or a letter)</a></li>
+          <li><a href="reading-book.html">Reading (a book)</a></li>
+          <li><a href="reading-correspondence.html">Reading (a note, a letter, a telegram)</a></li>
+        </ul>
+      </section>
+      <div class="entry-body">
+        <figure class="entry-illustration">
+        <img src="writing-book1.png" alt="Illustration for this entry" />
+        <figcaption>Leonid Pasternak, The Passion of Creation, 19th Century</figcaption>
+      </figure>
+        <p>
+The action of <a href="writing-correspondence.html">writing</a>, and specifically of writing a book, recurs throughout <em>Anna Karenina</em>. As with all motifs, this action acquires meaning by creating patterns throughout the novel, <a href="labyrinth.html">linking</a> together characters, scenes, and plotlines. </p>
+<p>Broadly speaking, the motif of writing a book draws attention to traits that are shared among certain characters. Levin and Anna, who are shown to have a profound and thoughtful nature, write books; superficial characters like Vronsky or Oblonsky do not. Within a single character, the recurring action of writing a book, through repetition and variation, can be used to highlight psychological changes. Furthermore, the motif of writing a book links the two main protagonists of the novel, Anna and Levin. Overall, this act is shown throughout <em>Anna Karenina</em> to be fashionable but ultimately futile. </p>
+
+Levin </p>
+<p>The motif of writing a book occurs most prominently in the actions of Levin, as he works on his agricultural treatise throughout the novel. Levin first begins to work on his book in Part Two, when he returns to the country from Moscow after being rejected by Kitty. This work, along with his other responsibilities, help cure him of his sadness about Kitty (Tolstoy 154). Later, in Part Three, Levin has a revelation about agriculture which redoubles his interest in his work. He spends much of his time working on his book during the summer, and he achieves clarity about his work. He sits down to write, an action which is described in some detail: “whole paragraphs” form in his mind, and he begins to write them down (Tolstoy 348). However, Levin then recalls with “unusual vividness” Kitty’s rejection and his recent encounter with her, which temporarily interrupts his work (Tolstoy 348–49). Then, in Part Five, after Kitty and Levin are married, Levin finds that while he still wants to write his book, it seems “trivial and insignificant” in comparison with his happiness. It is no longer an “escape from life,” but necessary to balance the joy of his love (Tolstoy 486). The motif of writing a book, then, traces Levin’s psychological evolution as he struggles to settle on which aspect of life is most important. He vacillates between two conflicting passions: agricultural theory (intellectual and professional life) or Kitty (romantic and family life). Ultimately, it seems that Levin finds a place for both in his life, but family values take precedence. </p>
+
+Anna</p>
+<p><em>Anna Karenina</em> herself writes a children’s book in Part Seven of the novel, a fact which links the protagonists Anna and Levin. In comparison with Levin’s writing, which stems from a deep personal commitment to his ideas, Anna’s writing seems to be a dilettantish distraction. However, the action of writing a book, shared with Levin, reinforces the feeling of a profound, personal connection between them that Levin experiences. The fact that the motif of writing a book occurs in the actions of both Anna and Levin also serves a structural function in the novel, as it links the two main plotlines. Parallelisms between Anna and Levin invite the reader to recognize broader similarities between the relationships of Anna/Vronsky and Levin/Kitty. </p>
+<p>Other characters</p>
+<p>Golenishchev, Vronsky’s acquaintance who he meets in Italy, is abroad in order to work on his book. He asserts that he is writing a book, then clarifies that he is not yet writing, but “laying the groundwork” and “gathering materials” (Tolstoy 464). Golenishchev discusses his work in an irritated, aggressive tone, and seems arrogant about his book. But his work is meaningless: Golenishchev “sensed he had nothing to say and continually deluded himself into thinking that his ideas had not yet matured, that he was developing them and gathering materials” (Tolstoy 481). The motif of writing a book links Golenishchev’s project and character to those of Anna and Levin, suggesting similarities between them. In Anna’s case, such a link might hint to the ultimate emptiness of her literary project, which appears as a way to fill space in her life. In Levin’s case, the parallel offers a negative lens on his constant yet unfinished work. </p>
+<p>Literary Parallels </p>
+<p>The motif of writing a book also occurs in the works of authors that influenced Tolstoy. English authors like Dickens, Trollope, and Eliot were particularly influential for Tolstoy’s version of the “family novel.” While Eliot’s <em>Middlemarch</em> is by no means a primary influence for <em>Anna Karenina</em>, there are clear parallels between the two works (see this article, and Knapp 136). The action of writing a book is an important plot element in <em>Middlemarch</em>. In Eliot’s novel, the aged and scholarly Casaubon has dedicated his whole life to writing his “masterwork,” the Key to All Mythologies. While the heroine Dorothea initially sees this work as a noble and worthwhile pursuit, we later come to realize that it is essentially futile and meaningless. Although Casaubon continues to work, the project ultimately stalls and remains unfinished at his death. The recurring action of Casaubon working on his book traces Dorothea’s gradual disillusionment with her husband. Casaubon’s project in some respects resembles that of Golenishchev: although he takes his work seriously, he ultimately has nothing to say. To a lesser degree, this parallel extends to Levin. As with Levin, the process of writing is emphasized, and not the completion of the book. Levin’s literary project might be just another example of a fashionable yet futile endeavor.   </p>
+      </div>
+
+
+      <!-- ============================================================
+           ILLUSTRATION
+           Instructions for students:
+           1. Save your image file into the "entries" folder
+              (same folder as this .html file)
+           2. Replace  YOUR-IMAGE-FILENAME.jpg  below with the
+              actual filename of your image (e.g. dancing.jpg)
+           3. Replace the caption text with a real caption
+              describing the image and its source.
+           ============================================================ -->
+
+
+      <figure class="entry-illustration">
+        <img src="writing-book2.png" alt="Illustration for this entry" />
+        <figcaption>Leonid Pasternak, Portrait of Leo Tolstoy Writing, 1893</figcaption>
+      </figure>
+
+      <!-- ============================================================
+           WORKS CITED  (MLA 9th edition)
+           Instructions for students:
+           - List sources alphabetically by author's last name
+           - Replace each placeholder line with a real citation
+           - Add or remove <li> lines as needed
+           - Each citation uses a hanging indent (built into the CSS)
+
+           MLA format examples:
+           Book:
+             Last, First. Title of Book. Publisher, Year.
+           Journal article:
+             Last, First. "Article Title." Journal Name, vol. #, no. #, Year, pp. #–#.
+           Website:
+             Last, First. "Page Title." Website Name, Day Mon. Year, URL.
+           ============================================================ -->
+            <section class="works-cited">
+        <h4>Works Cited</h4>
+        <ul>
+          <li>Blumberg, Edwina Jannie. "Tolstoy and the English Novel: A Note on Middlemarch and Anna Karenina." <em>Slavic Review</em>, vol. 30, no. 3, 1971, pp. 561–69. JSTOR, https://doi.org/10.2307/2493543.</li>
+          <li>Knapp, Liza. <em>Anna Karenina and Others</em>. University of Wisconsin Press, 2016.</li>
+          <li>Tolstoy, Leo. <em>Anna Karenina</em>. Translated by Rosamund Bartlett, Oxford University Press, 2014.</li>
+        </ul>
+      </section>
+
+    </article>
+  </main>
+
+  <footer>
+    
+    <p>Spring 2026, <em>Anna Karenina: A Close Reading</em>, Amherst College.</p>
+  </footer>
+</body>
+</html>

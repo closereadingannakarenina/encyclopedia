@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Reading (a note, a letter, a telegram) — An Encyclopedia of <em>Anna Karenina</em></title>
+  <link rel="stylesheet" href="../styles.css" />
+  <style>
+    .back-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.4rem;
+      font-variant: small-caps;
+      letter-spacing: 0.15em;
+      font-size: 0.9rem;
+      color: var(--accent);
+      text-decoration: none;
+      border-bottom: none;
+      margin-bottom: 2rem;
+      padding: 0.4rem 0;
+    }
+    .back-link:hover { color: var(--link-hover); border-bottom: none; }
+    .back-link::before { content: "←"; font-variant: normal; font-size: 1rem; }
+    .entry { border-bottom: none; }
+
+    .entry-illustration {
+      margin: 2rem 0;
+      border: 1px solid var(--rule);
+      padding: 1rem;
+      background: var(--paper-shade);
+      text-align: center;
+    }
+    .entry-illustration img {
+      max-width: 100%;
+      height: auto;
+      display: block;
+      margin: 0 auto 0.75rem;
+    }
+    .entry-illustration figcaption {
+      font-size: 0.85rem;
+      font-style: italic;
+      color: var(--ink-soft);
+    }
+    .works-cited {
+      margin-top: 2.5rem;
+      border-top: 1px solid var(--rule);
+      padding-top: 1.5rem;
+    }
+    .works-cited h4 {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 1.2rem;
+      font-variant: normal;
+      letter-spacing: 0;
+      color: var(--accent-dark);
+      margin-bottom: 0.75rem;
+    }
+    .works-cited ul {
+      list-style: none;
+      padding-left: 0;
+      margin: 0;
+    }
+    .works-cited li {
+      margin-bottom: 0.75rem;
+      font-size: 0.95rem;
+      color: var(--ink-soft);
+      line-height: 1.6;
+      padding-left: 2em;
+      text-indent: -2em;
+    }
+
+    .entry-byline {
+      font-variant: small-caps;
+      letter-spacing: 0.15em;
+      font-size: 0.8rem;
+      color: var(--ink-soft);
+      margin: 0.3rem 0 1rem;
+    }
+    .entry-byline a {
+      color: var(--accent);
+      border-bottom: 1px solid rgba(91,26,26,0.25);
+    }
+    .entry-byline a:hover {
+      color: var(--link-hover);
+    }
+
+    .entry-body > p:first-of-type::first-letter,
+    .entry-body > figure + p::first-letter {
+      font-family: 'Cormorant Garamond', serif;
+      float: left;
+      font-size: 3.4rem;
+      line-height: 1;
+      padding-right: 0.5rem;
+      padding-top: 0.35rem;
+      color: var(--accent);
+      font-weight: 600;
+    }
+    .placeholder-note {
+      color: var(--rule);
+      font-style: italic;
+      font-size: 0.9rem;
+    }
+
+    .related-articles {
+      display: inline-block;
+      margin: 0.5rem 0 1.75rem;
+      padding: 0.6rem 1rem 0.7rem;
+      background: var(--paper-shade);
+      border: 1px solid var(--rule);
+      font-size: 0.88rem;
+    }
+    .related-articles h4 {
+      font-family: 'EB Garamond', serif;
+      font-size: 0.78rem;
+      font-variant: small-caps;
+      letter-spacing: 0.2em;
+      color: var(--ink-soft);
+      margin: 0 0 0.4rem;
+    }
+    .related-articles ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.25rem 0.75rem;
+    }
+    .related-articles li {
+      margin: 0;
+    }
+    .related-articles a {
+      font-size: 0.9rem;
+      color: var(--link);
+      border-bottom: 1px solid rgba(91,26,26,0.25);
+      white-space: nowrap;
+    }
+    .related-articles a:hover {
+      color: var(--link-hover);
+      border-bottom-color: var(--link-hover);
+    }
+  </style>
+</head>
+<body>
+  <header class="masthead">
+    
+    <h1>An Encyclopedia of <em>Anna Karenina</em></h1>
+    <p class="tagline">Created by the Students of <em>Anna Karenina: A Close Reading</em> at Amherst College</p>
+  </header>
+
+  <nav class="site-nav" aria-label="Primary">
+    <ul>
+      <li><a href="../index.html">Home</a></li>
+      <li><a href="../encyclopedia.html" class="active">Encyclopedia</a></li>
+      <li><a href="../about.html">About Us</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <a class="back-link" href="../encyclopedia.html#motifs">Back to Motifs</a>
+
+    <article class="entry" id="reading-correspondence">
+      <header class="entry-head">
+        <h3>Reading (a note, a letter, a telegram)</h3>
+      </header>
+
+      <section class="related-articles">
+        <h4>Related Articles</h4>
+        <ul>
+          <li><a href="reading-book.html">Reading (a book)</a></li>
+          <li><a href="writing-book.html">Writing (a book)</a></li>
+          <li><a href="writing-correspondence.html">Writing (a note or a letter)</a></li>
+        </ul>
+      </section>
+      <div class="entry-body">
+        <figure class="entry-illustration">
+        <img src="reading-correspondence1.png" alt="Illustration for this entry" />
+        <figcaption>Telegram (1894) by Luise Max-Ehrler</figcaption>
+      </figure>
+        <p>In Tolstoy’s <em>Anna Karenina</em>, the <a href="reading-book.html">motif of reading</a> refers to repeated scenes in which characters receive, decipher, or interpret written messages including notes, telegrams, and even coded initials. Tolstoy’s concern is not only with the existence of written communication but, more specifically, with the act of reading these messages. Throughout the novel, a character’s response to a message reveals the condition of a relationship as powerfully as a live conversation could. Perhaps even more powerfully, reading becomes a test of intimacy, exposing betrayal, confirming mutual connection, or aggravating emotional isolation. The reader’s interpretation of and reaction to these messages are therefore crucial to the novel. </p>
+	<p>The motif appears almost immediately in the Oblonsky household, where Dolly has discovered Stiva’s affair by reading “the unfortunate note.” When Stiva enters, Dolly is “sitting motionless with the note in her hand, and looking at him with an expression of horror, despair, and anger” (Tolstoy 4). This note, which reveals Stiva’s affair, sets the tone not only for the chapter but for the whole novel. Notably, Tolstoy emphasizes Dolly’s pain and quietness, allowing her physical reaction to the note to characterize the scene. For Dolly, this written proof makes ignorance towards Stiva’s affair impossible; the note carries devastating moral and familial weight.  </p>
+	<p>This motif develops in a different, more positive direction with Levin and Kitty's reunion. At a gathering in Part 4, they communicate through the initial letters of sentences spelled out with blocks. Levin quietly forms the question, “When you answered me ‘that cannot be,’ did that mean never or then?” and thinks, “There was no likelihood that she could make out this complicated sentence” (Tolstoy 400). However, Kitty understands him exactly, placing this interaction in sharp contrast with Dolly’s reading of the "unfortunate note.” Here, this message is incomplete – and likely incomprehensible – to anyone else, but it is perfectly comprehensible to those in love. Kitty’s ability to read Levin’s initials demonstrates that they share an emotional language that transcends ordinary conversation. This moment is private and playful, building intimacy instead of destroying it. More generally, this scene provides an example of how Levin and Kitty’s communication consistently contrasts with Anna and Vronsky’s.  </p>
+	<p>Anna and Vronsky’s relationship provides a tragic version of this motif. In Part 7, Anna reads Vronsky’s brief telegram, which says, “I cannot be home before ten o’clock” (Tolstoy 763). On the surface, the message is practical and inoffensive. Anna, however, reads it with jealousy and despair. Thus, her tragedy hinges not on Vronsky’s message but on how she interprets it. She pictures him with his mother and Princess Sorokina, “revelling in her suffering” (Tolstoy 763). Unlike Kitty, who can decipher what is barely communicated in the first place, Anna misreads a plain message. The telegram’s brevity leaves space for her suspicions.  </p>
+	<p>The development of this motif therefore reflects the status of relationships throughout the novel. Dolly’s reading uncovers betrayal, Kitty’s confirms <a href="love.html">love</a>, and Anna’s produces a lethal misinterpretation. In each case, Tolstoy makes reading an action with significant consequences.  </p>
+	<p>A useful literary parallel is Flaubert’s <em>Madame Bovary</em>, another adultery novel in which reading shapes both desire and delusion. Sarah Hurlburt’s “Educating Emma” argues that Emma Bovary’s early education produces a “selective, escapist manner of reading,” a pattern that helps explain how she interprets love through fantasy and not reality (Hurlburt). Similarly, one Michigan Quarterly Review essay describes <em>Madame Bovary</em> as an avid reader whose imagination is filled with romantic literary images. Additionally, the article notes that Flaubert also includes instances of failed readings of letters. Similar to <em>Anna Karenina</em>, written messages do not accomplish true understanding in these moments (Lee).  </p>
+      </div>
+
+
+      <!-- ============================================================
+           ILLUSTRATION
+           Instructions for students:
+           1. Save your image file into the "entries" folder
+              (same folder as this .html file)
+           2. Replace  YOUR-IMAGE-FILENAME.jpg  below with the
+              actual filename of your image (e.g. dancing.jpg)
+           3. Replace the caption text with a real caption
+              describing the image and its source.
+           ============================================================ -->
+
+
+      <figure class="entry-illustration">
+        <img src="reading-correspondence2.png" alt="Illustration for this entry" />
+        <figcaption>Woman Reading a Letter (1664) by Pieter de Hooch</figcaption>
+      </figure>
+
+      <!-- ============================================================
+           WORKS CITED  (MLA 9th edition)
+           Instructions for students:
+           - List sources alphabetically by author's last name
+           - Replace each placeholder line with a real citation
+           - Add or remove <li> lines as needed
+           - Each citation uses a hanging indent (built into the CSS)
+
+           MLA format examples:
+           Book:
+             Last, First. Title of Book. Publisher, Year.
+           Journal article:
+             Last, First. "Article Title." Journal Name, vol. #, no. #, Year, pp. #–#.
+           Website:
+             Last, First. "Page Title." Website Name, Day Mon. Year, URL.
+           ============================================================ -->
+            <section class="works-cited">
+        <h4>Works Cited</h4>
+        <ul>
+          <li>Hurlburt, Sarah. "Educating Emma: A Genetic Analysis of Reading in Madame Bovary." <em>Nineteenth-Century French Studies</em>, vol. 40, no. 1/2, Fall–Winter 2011–2012, pp. 81–95. JSTOR.</li>
+          <li>Lee, Nania. "For the Love of Emma Bovary." <em>Michigan Quarterly Review</em>, University of Michigan, July 2011.</li>
+          <li>Tolstoy, Leo. <em>Anna Karenina</em>. Oxford University Press, 2014.</li>
+        </ul>
+      </section>
+
+    </article>
+  </main>
+
+  <footer>
+    
+    <p>Spring 2026, <em>Anna Karenina: A Close Reading</em>, Amherst College.</p>
+  </footer>
+</body>
+</html>

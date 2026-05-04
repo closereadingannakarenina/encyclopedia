@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Writing (a note or a letter) — An Encyclopedia of <em>Anna Karenina</em></title>
+  <link rel="stylesheet" href="../styles.css" />
+  <style>
+    .back-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.4rem;
+      font-variant: small-caps;
+      letter-spacing: 0.15em;
+      font-size: 0.9rem;
+      color: var(--accent);
+      text-decoration: none;
+      border-bottom: none;
+      margin-bottom: 2rem;
+      padding: 0.4rem 0;
+    }
+    .back-link:hover { color: var(--link-hover); border-bottom: none; }
+    .back-link::before { content: "←"; font-variant: normal; font-size: 1rem; }
+    .entry { border-bottom: none; }
+
+    .entry-illustration {
+      margin: 2rem 0;
+      border: 1px solid var(--rule);
+      padding: 1rem;
+      background: var(--paper-shade);
+      text-align: center;
+    }
+    .entry-illustration img {
+      max-width: 100%;
+      height: auto;
+      display: block;
+      margin: 0 auto 0.75rem;
+    }
+    .entry-illustration figcaption {
+      font-size: 0.85rem;
+      font-style: italic;
+      color: var(--ink-soft);
+    }
+    .works-cited {
+      margin-top: 2.5rem;
+      border-top: 1px solid var(--rule);
+      padding-top: 1.5rem;
+    }
+    .works-cited h4 {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 1.2rem;
+      font-variant: normal;
+      letter-spacing: 0;
+      color: var(--accent-dark);
+      margin-bottom: 0.75rem;
+    }
+    .works-cited ul {
+      list-style: none;
+      padding-left: 0;
+      margin: 0;
+    }
+    .works-cited li {
+      margin-bottom: 0.75rem;
+      font-size: 0.95rem;
+      color: var(--ink-soft);
+      line-height: 1.6;
+      padding-left: 2em;
+      text-indent: -2em;
+    }
+
+    .entry-byline {
+      font-variant: small-caps;
+      letter-spacing: 0.15em;
+      font-size: 0.8rem;
+      color: var(--ink-soft);
+      margin: 0.3rem 0 1rem;
+    }
+    .entry-byline a {
+      color: var(--accent);
+      border-bottom: 1px solid rgba(91,26,26,0.25);
+    }
+    .entry-byline a:hover {
+      color: var(--link-hover);
+    }
+
+    .entry-body > p:first-of-type::first-letter,
+    .entry-body > figure + p::first-letter {
+      font-family: 'Cormorant Garamond', serif;
+      float: left;
+      font-size: 3.4rem;
+      line-height: 1;
+      padding-right: 0.5rem;
+      padding-top: 0.35rem;
+      color: var(--accent);
+      font-weight: 600;
+    }
+    .placeholder-note {
+      color: var(--rule);
+      font-style: italic;
+      font-size: 0.9rem;
+    }
+
+    .related-articles {
+      display: inline-block;
+      margin: 0.5rem 0 1.75rem;
+      padding: 0.6rem 1rem 0.7rem;
+      background: var(--paper-shade);
+      border: 1px solid var(--rule);
+      font-size: 0.88rem;
+    }
+    .related-articles h4 {
+      font-family: 'EB Garamond', serif;
+      font-size: 0.78rem;
+      font-variant: small-caps;
+      letter-spacing: 0.2em;
+      color: var(--ink-soft);
+      margin: 0 0 0.4rem;
+    }
+    .related-articles ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.25rem 0.75rem;
+    }
+    .related-articles li {
+      margin: 0;
+    }
+    .related-articles a {
+      font-size: 0.9rem;
+      color: var(--link);
+      border-bottom: 1px solid rgba(91,26,26,0.25);
+      white-space: nowrap;
+    }
+    .related-articles a:hover {
+      color: var(--link-hover);
+      border-bottom-color: var(--link-hover);
+    }
+  </style>
+</head>
+<body>
+  <header class="masthead">
+    
+    <h1>An Encyclopedia of <em>Anna Karenina</em></h1>
+    <p class="tagline">Created by the Students of <em>Anna Karenina: A Close Reading</em> at Amherst College</p>
+  </header>
+
+  <nav class="site-nav" aria-label="Primary">
+    <ul>
+      <li><a href="../index.html">Home</a></li>
+      <li><a href="../encyclopedia.html" class="active">Encyclopedia</a></li>
+      <li><a href="../about.html">About Us</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <a class="back-link" href="../encyclopedia.html#motifs">Back to Motifs</a>
+
+    <article class="entry" id="writing-correspondence">
+      <header class="entry-head">
+        <h3>Writing (a note or a letter)</h3>
+      </header>
+
+      <section class="related-articles">
+        <h4>Related Articles</h4>
+        <ul>
+          <li><a href="writing-book.html">Writing (a book)</a></li>
+          <li><a href="reading-book.html">Reading (a book)</a></li>
+          <li><a href="reading-correspondence.html">Reading (a note, a letter, a telegram)</a></li>
+        </ul>
+      </section>
+      <div class="entry-body">
+        <figure class="entry-illustration">
+        <img src="writing-correspondence1.jpg" alt="Illustration for this entry" />
+        <figcaption>Man Writing a Letter (c. 1664-1666) by Gabriël Metsu</figcaption>
+      </figure>
+        <p>	Throughout the novel, the rather benign activity of writing a note takes on great significance, as characters are constantly writing to one another through pen and paper. The novel begins with two notes, one addressed to Stepan Oblonsky (though ultimately read by Dolly Oblonskaya) from the French governess, and the other written by the English governess, who “had quarrelled with the housekeeper and written a note to a friend, asking her to find her a new position” (3). This highlights two important aspects of the act of writing a note in <em>Anna Karenina</em>: that the author of each note might be writing in a language other than Russian, and always with a specific audience in mind. Less so than in Tolstoy’s <em>War and Peace</em>, which features “long letters entirely in French, as well as official dispatches” (Pevear and Volokhonsky v), the novel is strewn with letters that are certainly written in other languages but transmitted to the reader in Russian. Take, for example, Alexei Karenin’s letter to Anna regarding his plans to forgo a <a href="marriage-laws.html">divorce</a> in Part 3, Chapter 14. Karenin’s approach and intentions are shared with the reader as follows: “Placing his elbows on the desk, he cocked his head to one side, thought for a minute, then began to write, without pausing for a second. He wrote without addressing her, and in French, using ‘vous’ as a pronoun, which does not have the same cold character it does in Russian” (287). Writing a letter to Anna is a meaningful event for Karenin, one for which he sits up and hopes to convey his thoughts in the very form of his writing. Tolstoy provides the reader with an incredible degree of information regarding this activity. As Karenin thinks to himself, “there was not a single harsh word or reproach, but nor was there any lenience either. Above all, there was a golden bridge for her return” (288), the reader sees the psychological significance that writing a note and letter has in the novel beyond mere communication, both in what is explicitly said and what is omitted. One learns that Karenin writes and then re-reads his letter in Anna’s voice, hoping that she will pick up on the cues laid for her in his words. </p>
+	<p>A third aspect which might be taken into account is the degree of urgency with which characters hope that their words will be read by their recipient. In her final hours, Anna writes Vronsky a note and a telegram, and their arrival is a matter of life and death. Firstly, she sends a note stating the following: “It’s all my fault. Come back home, as we need to talk things over. For heaven’s sake come—I’m frightened” (756). Shortly thereafter, while thinking about her next step, the reader witnesses her thought process as she remembers another way of communicating with him: “‘Oh, and I can wire him too.’ And she wrote out a telegram: ‘I must talk to you, come at once’” (758). Knowing so much about Anna’s mental and psychical state while writing both, one is invited to compare her plea for Vronsky’s presence to his own curt response, a telegram, for which his thought process behind his writing is nearly fully omitted: “I cannot come before ten o’clock. Vronsky” (763). But not all is fully omitted by the narrator, who provides one bit of insight into Vronsky’s writing, stating that Anna “did not realize that his telegram was an answer to her telegram, and that he had not received her note yet” (763). Possibly meant to vindicate Vronsky, the scene reflects the intense mental processes involved in writing a note or letter. 
+</p>
+      </div>
+
+
+      <!-- ============================================================
+           ILLUSTRATION
+           Instructions for students:
+           1. Save your image file into the "entries" folder
+              (same folder as this .html file)
+           2. Replace  YOUR-IMAGE-FILENAME.jpg  below with the
+              actual filename of your image (e.g. dancing.jpg)
+           3. Replace the caption text with a real caption
+              describing the image and its source.
+           ============================================================ -->
+
+
+      <figure class="entry-illustration">
+        <img src="writing-correspondence2.jpg" alt="Illustration for this entry" />
+        <figcaption>Reply of the Zaporozhian Cossacks (1880–1891) by Ilya Repin</figcaption>
+      </figure>
+
+      <!-- ============================================================
+           WORKS CITED  (MLA 9th edition)
+           Instructions for students:
+           - List sources alphabetically by author's last name
+           - Replace each placeholder line with a real citation
+           - Add or remove <li> lines as needed
+           - Each citation uses a hanging indent (built into the CSS)
+
+           MLA format examples:
+           Book:
+             Last, First. Title of Book. Publisher, Year.
+           Journal article:
+             Last, First. "Article Title." Journal Name, vol. #, no. #, Year, pp. #–#.
+           Website:
+             Last, First. "Page Title." Website Name, Day Mon. Year, URL.
+           ============================================================ -->
+            <section class="works-cited">
+        <h4>Works Cited</h4>
+        <ul>
+          <li>Pevear, Richard, and Larissa Volokhonsky. "Introduction." <em>War and Peace</em>, Vintage, 2008.</li>
+          <li>Tolstoy, Leo. <em>Anna Karenina</em>. Translated by Rosamund Bartlett, Oxford University Press, 2014.</li>
+        </ul>
+      </section>
+
+    </article>
+  </main>
+
+  <footer>
+    
+    <p>Spring 2026, <em>Anna Karenina: A Close Reading</em>, Amherst College.</p>
+  </footer>
+</body>
+</html>
